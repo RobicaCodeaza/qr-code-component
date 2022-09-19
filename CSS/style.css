@@ -16,17 +16,16 @@ body {
   height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: #d6e2f0;
 }
 
-.container {
-  margin: 0 auto;
-}
-
 .qr-preview {
+  margin: 0 auto;
   background-color: #fff;
   padding: 1.4rem;
   max-width: 33rem;
+  height: 50rem;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -39,8 +38,8 @@ body {
   border-radius: 15px;
   overflow: hidden;
   position: relative;
-  width: 30rem;
-  height: 30rem;
+  width: 100%;
+  height: 100%;
 }
 .imgBx .img {
   position: absolute;
