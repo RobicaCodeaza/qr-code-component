@@ -21,12 +21,11 @@ body {
 }
 
 .qr-preview {
-  margin: 0 auto;
   background-color: #fff;
   padding: 1.4rem;
   max-width: 33rem;
   height: 50rem;
-  border-radius: 15px;
+  border-radius: 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,7 +34,7 @@ body {
 }
 
 .imgBx {
-  border-radius: 15px;
+  border-radius: 1.5rem;
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -48,7 +47,7 @@ body {
   display: inline-block;
   width: 100%;
   height: 100%;
-  border-radius: 15px;
+  border-radius: 1.5rem;
 }
 .contentBx {
   padding: 1.4rem 1.4rem 2.4rem 1.4rem;
